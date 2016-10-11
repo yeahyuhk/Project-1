@@ -56,9 +56,7 @@ function draw() {
     //THIS IS THE DRAW FUNCTION UNLESS ENTER IS PRESSED
 
   } else {
-    textSize(22);
-    text("press enter", 30, 200);
-    text("or click mouse", 30, 230)
+  
     strokeWeight(2)
     flare();
     rain(30);
